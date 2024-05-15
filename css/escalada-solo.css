@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black
+}
+header{
+    
+    display: flex;
+    justify-content: space-between ;
+    padding: 5px;
+}
+header img{
+    height: 70px;
+    display: flex;
+    margin: 15px;
+}
+header nav ul{
+    display: flex; 
+    list-style-type: none; 
+}
+header nav ul li a{
+text-decoration: none;
+color: greenyellow;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 50px;
+}
+
+
+
+.grid-conteiner{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+   grid-template-rows: 100px 150px 500px;
+
+    }
+    
+.c1{
+    
+    grid-column: 1/4 ;
+}
+.c1 h1{
+    color: green;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.c2{
+    
+    grid-column: 1/4;
+}
+.c2 p{
+    color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 50px;
+}
+
+.c3{
+    margin-top: 85px;
+    grid-column: 1/3;
+}
+.c3 h2{
+    color: green;
+    margin-top: 15px;
+    text-align: center;
+    margin: 15px;
+}
+.c3 p{
+    color: greenyellow;
+    margin: 20px 80px;
+}
+
+.c4{
+      
+    margin-top: 90px;
+}
+.c4 img{
+    height: 300px;
+    width: 500px;
+    padding: 15px;
+    margin-top: 100px;
+    
+}
+.c5{
+    
+    grid-column: 1/4;
+}
+.c5 h2{
+    color: green;
+    text-align: center;
+    padding: 15px;
+}
+.c5 img{
+height: auto;
+width: 1000px;
+margin: 50px;
+padding: 100px;
+}
+
+
+
+
+.c12{
+    
+    grid-column: 1/4;
+    grid-row: 6/12;
+}
+
+.pie-de-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-de-pagina .grupo1 .caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pie-de-pagina .grupo1 .caja img{
+    width: 250px;
+}
+.pie-de-pagina .grupo1 .caja h2{
+    color: green;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.pie-de-pagina .grupo1 .caja p{
+    color: greenyellow;
+    margin: 40px 40px;
+}
